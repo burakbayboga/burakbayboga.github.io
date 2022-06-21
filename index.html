@@ -5,45 +5,50 @@
 	<title>
 		Burak Bayboğa
 	</title>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
 
 	<body style="margin:0;background-color:rgb(133, 209, 224)">
-
 		<div style="display: flex; flex-direction: column; align-items: center;">
-			<h2>
+			<h1>
 				Projects
-			</h2>
-			<div style="background-color:rgb(192, 232, 165); width: 80%; border-radius:16px; padding:32px; margin-bottom:8px; display:flex; height:500px" >
-				<div style="width: 50%; background-color:rgba(255, 255, 255, 0.4)" >
+			</h1>
+			<div class="project-area">
+				<div class="video-container" >
 					<video height="100%" width="100%" controls autoplay muted loop style="padding:4px">
-	<source src="matt1.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
-
+						<source src="matt1.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+				</div>
+				<div style="width: 50%; padding:16px; " >
+					<h2 style="text-align:center">
+						Mathris - Pop Balloons
+					</h2>
+					<div style="margin-bottom: 32px; text-align:center">
+					<i> Mobile puzzle game. </i>
+					</div> 
+					<p style="margin-top:10%">
+					Mathris djwlajdlkajdla dwaşsdlşkaşwokdş ajdwasdklajşda asşdkwoadsadadwa şlcmsamşgka. Mathris djwlajdlkajdla dwaşsdlşkaşwokdş ajdwasdklajşda asşdkwoadsadadwa şlcmsamşgka. Mathris djwlajdlkajdla dwaşsdlşkaşwokdş ajdwasdklajşda asşdkwoadsadadwa şlcmsamşgka.
+					</p>
+					<div style="margin-top:10%">
+						<a target="_blank" href="https://play.google.com/store/apps/details?id=com.hakubuya.Mathris">See at Google Play Store</a>
+					</div>
+				</div>
+			</div>
+			<div class="project-area">
+				<div class="video-container">
+					<video height="100%" width="100%" controls autoplay muted loop style="padding:4px">
+						<source src="speck short.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
 				</div>
 				<div style="width: 50%; background-color: blue;" >
 					asd
 				</div>
 			</div>
-			<div style="background-color:rgb(192, 232, 165); width: 80%; border-radius:16px; padding:32px; margin-bottom:8px; display:flex; height:500px" >
-				<div style="width: 50%; background-color:rgba(255, 255, 255, 0.4)" >
-					<video height="100%" width="100%" controls autoplay muted loop style="padding:4px">
-	<source src="speck short.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
-				</div>
-				<div style="width: 50%; background-color: blue;" >
-					asd
-				</div>
-			</div>
 
-			<div style="background-color:rgb(192, 232, 165); width: 80%; border-radius:16px; padding:32px; margin-bottom:8px; display:flex; height:500px" >
-				<div style="width: 50%; background-color:rgba(255, 255, 255, 0.4); display:flex; justify-content:center; align-items:center" >
+			<div class="project-area">
+				<div class="image-container">
 					<img src="img1.jpeg" style="max-height:100%; max-width:100%" />
 				</div>
 				<div style="width: 50%; background-color: blue;" >
@@ -51,8 +56,8 @@ Your browser does not support the video tag.
 				</div>
 			</div>
 
-			<div style="background-color:rgb(192, 232, 165); width: 80%; border-radius:16px; padding:32px; margin-bottom:8px; display:flex; height:500px" >
-				<div style="width: 50%; background-color:rgba(255, 255, 255, 0.4); display:flex; justify-content:center; align-items:center" >
+			<div class="project-area">
+				<div class="image-container">
 					<img src="img2.jpeg" style="max-height:100%; max-width:100%" />
 				</div>
 				<div style="width: 50%; background-color: blue;" >
@@ -63,6 +68,29 @@ Your browser does not support the video tag.
 		</div>
 
 	</body>
+
+<style>
+		.project-area {
+			background-color:rgb(192, 232, 165);
+			width: 80%;
+			border-radius:16px;
+			padding: 32px;
+			margin-bottom: 8px;
+			display: flex;
+			height: 500px
+		}
+		.video-container {
+			background-color:rgba(255, 255, 255, 0.4);
+			width: 50%;
+		}
+		.image-container {
+			width: 50%;
+			background-color:rgba(255, 255, 255, 0.4);
+			display:flex;
+			justify-content : center;
+			align-items : center;
+		}
+</style>
 </html>
 
 
