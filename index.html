@@ -229,7 +229,7 @@
 			</div>
 		</div>
 
-		<div class="project-area">
+		<div class="asset-area">
 			<div class="image-container">
 				<img src="warp.png" style="max-height:100%; max-width:100%" />
 			</div>
@@ -269,7 +269,7 @@
 			</div>
 		</div>
 
-		<div class="project-area">
+		<div class="asset-area">
 			<div class="image-container">
 				<img src="grid inventory.png" style="max-height:100%; max-width:100%" />
 			</div>
@@ -296,7 +296,7 @@
 			</div>
 		</div>
 
-		<div class="project-area">
+		<div class="asset-area">
 			<div class="image-container">
 				<img src="theta star.png" style="max-height:100%; max-width:100%"/>
 			</div>
@@ -344,11 +344,11 @@
 
 		.card-footer {
 			margin-top: 5%;
-			font-size: 13px;
+			font-size: 15px;
 		}
 
 		.about-me {
-			background-color:rgb(192, 232, 165);
+			background-color:rgb(217, 197, 158);
 			width: 60%;
 			border-radius:16px;
 			padding: 32px;
@@ -359,6 +359,17 @@
 
 		.project-area {
 			background-color:rgb(192, 232, 165);
+			width: 60%;
+			border-radius:16px;
+			padding: 32px;
+			margin-bottom: 16px;
+			display: flex;
+			height: 400px;
+			box-shadow: 4px 4px 4px 4px teal;
+		}
+		
+		.asset-area {
+			background-color:rgb(142, 151, 187);
 			width: 60%;
 			border-radius:16px;
 			padding: 32px;
@@ -385,7 +396,13 @@
 		}
 
 		@media (max-device-width: 600px) {
+		  .about-me {
+			width: 80%
+		  }
 		  .project-area {
+			width: 80%
+		  }
+		  .asset-area{
 			width: 80%
 		  }
 		}
